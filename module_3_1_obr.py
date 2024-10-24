@@ -24,7 +24,7 @@ def is_contains (string, list_to_search):    # 4
 
 print(string_info("Generator"))
 print(string_info("Compressor"))
-print(is_contains('cube', ['recycling', 'cyclic', 'sphere'])) # No matches
-print(is_contains('GaZEL', ['List', 'Snow', 'gAzeL'])) # Urban ~ urBAN
+print(is_contains("chic", ["burger", "chicken", "ustric"])) # No matches
+print(is_contains("Basic", ["BaSiC", "PaScAl", "fortran"])) # Urban ~ urBAN
 
 print(calls)
