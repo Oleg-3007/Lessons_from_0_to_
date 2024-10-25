@@ -1,15 +1,15 @@
-calls = 0   # 1
-def count_calls():  #2
+calls = 0  
+def count_calls():
     global calls
     calls += 1
 
-def string_info(string):    #3
+def string_info(string):
     line = str(string)
     result = (len(line), line.upper(), line.lower())
     count_calls()
     return result
 
-def is_contains (string, list_to_search):    # 4
+def is_contains (string, list_to_search):
     string = str (string). lower()
     list_to_search = list (list_to_search)
     count_calls()
@@ -24,7 +24,7 @@ def is_contains (string, list_to_search):    # 4
 
 print(string_info("Generator"))
 print(string_info("Compressor"))
-print(is_contains("chic", ["burger", "chicken", "ustric"])) # No matches
-print(is_contains("Basic", ["BaSiC", "PaScAl", "fortran"])) # Urban ~ urBAN
+print(is_contains("chic", ["burger", "chicken", "ustric"])) 
+print(is_contains("Basic", ["BaSiC", "PaScAl", "fortran"])) 
 
 print(calls)
