@@ -13,8 +13,6 @@ class House:
             for floor in range(new_floor):
                 print(floor + 1)
 
-
-
 h1 = House('ЖК "Горский"', 18)
 h2 = House('ЖК "Домик в деревне"', 5)
 h3 = House('ЖК "Эльбрус"', 30)
